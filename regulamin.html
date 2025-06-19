@@ -12,7 +12,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/512xnewhypixel.png" type="image/x-icon">
   <meta name="description" content="Regulamin KVMC.PL">
-  
+  <style>
+    .header14.cid-tjqpRpO1sc,
+.features23.cid-tjqfAD0JSA {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.video-background {
+  position: fixed; /* albo absolute - zależy co chcesz */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+  </style>
   
   <title>KVMC.PL - Regulamin</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
@@ -22,6 +40,10 @@
   <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Fredoka+One:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -67,7 +89,10 @@
 
 <section data-bs-version="5.1" class="header14 cid-tjqvOAjwRT mbr-fullscreen mbr-parallax-background" id="header14-t">
 
-    
+    <video autoplay muted loop playsinline
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+    <source src="assets/images/background.mp4" type="video/mp4">
+  </video>
 
     
     <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(1, 17, 26);"></div>
@@ -113,7 +138,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-6 my-auto px-4 align-left">
-                <p class="mbr-text text-grey mb-0 mbr-fonts-style display-7">
+                <p class="mbr-text text-grey mb-0 mbr-fonts-style display-71">
                     © Copyright 2025 <strong>KVMC</strong>. All rights reserved.<br></p>
             </div>
             <div class="col-md-12 col-lg-6 px-4 align-right">
